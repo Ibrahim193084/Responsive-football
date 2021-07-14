@@ -23,8 +23,8 @@ transition: transform 5s;}
 .head{width: 485px;
 height: 230px;
 margin-left: 60px;}
-.first{font-size: 60px;
-line-height: 35px;
+.first{font-size: 50px;
+line-height: 45px;
 color: white;}
 #transform:hover{transform: rotate(360deg);}
 
@@ -101,3 +101,5 @@ footer{text-align: center;}
     .players{
         grid-template-columns: repeat(1, 1fr);
     width: 100%;}
+    .top-heading{flex-direction: column;}
+}
