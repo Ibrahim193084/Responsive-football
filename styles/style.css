@@ -103,6 +103,8 @@ footer{text-align: center;}
         grid-template-columns: repeat(1, 1fr);
     width: 100%;
 margin-right:60px;}
+.player{flex-direction: column;
+margin: 0 auto;}
     .top-heading{display: block;}
     .middle-part{margin-right: 300px;}
     main{display: block;}
