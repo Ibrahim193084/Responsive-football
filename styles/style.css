@@ -1,9 +1,10 @@
 /*--------------- media query ----------------
 --------------------------------------------*/
 @media only screen and (max-width: 688px) {
-    .players{display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }}
+    .players{
+        background-color: white;
+        grid-template-columns: repeat(1, 1fr);}
+    .miidle-part{width: 100%}}
     
 
 
