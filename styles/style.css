@@ -22,13 +22,15 @@ flex-direction: row;
 .top-banner{width: 50%;}
 .top-banner img{width: 512px;
 height: 420px;
-margin-left: 140px;}
+margin-left: 140px;
+transition: transform 5s;}
 .head{width: 485px;
 height: 230px;
 margin-left: 60px;}
 .first{font-size: 60px;
 line-height: 35px;
 color: white;}
+#transform:hover{transform: rotate(360deg);}
 
 /*-------------------
  ---------button part */
