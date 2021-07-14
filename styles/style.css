@@ -101,6 +101,9 @@ footer{text-align: center;}
 @media only screen and (max-width: 688px) {
     .players{
         grid-template-columns: repeat(1, 1fr);
-    width: 100%;}
+    width: 1050px;
+```````````````````````````````````````````````````````
+grid-gap: 15px;
+margin: auto;}
     .top-heading{flex-direction: column;}
 }
