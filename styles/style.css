@@ -1,61 +1,93 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* common */
-body{font-family: 'Poppins', sans-serif;
-    margin: 0px;}
+/*------------------
+ common ------------*/
 
-/* top part style */
+body{font-family: 'Poppins', sans-serif;
+margin: 0px;}
+
+/*-------------------------------
+ top part & third part----------*/
+
 .top-part{background-color: #2D25A0;
 
-margin-top: 0px;
-padding: 0px;}
-/* menu style */
+margin-top: 0px;}
+.top-heading{display: flex;
+flex-direction: row;
+}
+.top-banner{width: 50%;}
+.top-banner img{width: 512px;
+height: 420px;
+margin-left: 140px;}
+.head{width: 485px;
+height: 230px;
+margin-left: 60px;}
+.first{font-size: 60px;
+line-height: 35px;
+color: white;}
+
+/*-------------------
+ ---------button part */
+
+button{height: 35px;
+width: 130px;
+background-color: mediumvioletred;}
+button>a{text-decoration: none;
+color: White;}
+
+/* ----------------
+menu style---------- */
+
 nav>ul>li>a{text-decoration: none;
 color: white;
-font-size: 20px;
+font-size: 15px;
 margin-right:25px;
-font-weight: 700;}
+font-weight: 500;}
 nav>ul>li{list-style: none;}
-nav>ul{display: flex;}
-.top-heading{display: flex;}
-.top-banner{width: 50%;
-margin-left: 450px;}
-.top-banner-head{width: 485px;
-    height: 230px;
-    margin-top: 100px;
-    width: 50%;
-}
+nav>ul{display: flex;
+flex-direction: row;
+align-items: center;
+padding-top: 22px;}
 
-.top-banner img{
-    width: 556.01px;
-    height: 438px;
-    }
-    /* middle-part */
+    /* ----------------
+    ------middle-part */
+
+
 .middle-part{width: 500px;
 justify-content: center;
 align-items: center;
-margin-left: 450px;
+margin-left: 470px;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-gap: 0px;}
 
     .players{display: grid;
     grid-template-columns: repeat(3, 1fr);
-grid-row-gap: 3px;
-margin-bottom: 32px;
-margin-top: 35px;
+grid-row-gap: 5px;
+margin-bottom: 55px;
+margin-top: 55px;
 justify-content: center;
 grid-column-gap: 0px;
 width: 300px;}
 .player{align-items: center;
-margin-left: 10px;
-margin-bottom: 10px;
+margin-left: 25px;
+margin-bottom: 25px;
 border: 1px solid lightgray;
-padding: 5px;
-border-radius: 5px;
-box-shadow: 20px;
+padding: 15px;
+box-shadow: 10px 10px 10px;
 
 }
-.player img{width: 150px;
-height: 150px;}
+.player img{width: 330px;
+height: 470px;}
+
+/*---------------
+ logo part ------*/
+.logo img{height: 90px;
+width: 300px;}
+.logo{text-align: center;}
+
+
+/*--------------------
+ footer part --------*/
+footer{text-align: center;}
