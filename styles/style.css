@@ -103,6 +103,7 @@ footer{text-align: center;}
         grid-template-columns: repeat(1, 1fr);
     width: 100%;
 margin-right:}
-    .top-heading{flex-direction: column;}
+    .top-heading{display: block;}
     .middle-part{margin-right: 300px;}
+    .
 }
